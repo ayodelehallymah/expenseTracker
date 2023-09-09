@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background:#042159; 
+}
+.container{
+    height: 70rem;
+    width: 35rem; 
+    background-color:#0869A6;
+    display: grid;
+    grid-template-rows: 7% 20% 58%;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: aquamarine;
+}
+h3{
+    margin-bottom: 1rem;
+}
+ .formLine{
+    display: inline-flex;
+    padding: 5px 0px;
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+    margin-right: 100px;
+}
+input, select{
+    width: 10rem;
+    margin-left: 1rem; 
+    height: 2rem;
+    border-radius: 1rem;
+  }
+  
+  thead{
+    background-color:#99b8abb2;
+    line-height: 1.5rem;
+  }
+  button{
+    color:#fffccc; 
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: blue;
+    border-radius: 15px;
+    margin: 14px 33%;
+    cursor: pointer;
+  } 
+  button:hover{
+    background-color: darkblue;
+    color: aqua;
+}
+select:hover{
+    background-color: rgb(29, 29, 104);
+    color: antiquewhite;
+}
+input:hover{
+    background-color: rgb(44, 44, 126);
+    color: antiquewhite;
+}
+a:hover{
+    cursor: pointer;
+    color: red;
+    text-decoration: line-through;
+ } 
+ .table{
+    width: 35rem;
+    justify-content: space-between;
+    text-align: center;
+ }

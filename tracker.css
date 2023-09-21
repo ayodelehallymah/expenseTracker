@@ -43,6 +43,7 @@ input, select{
     height: 3rem;
     border-radius: 1rem;
     text-align: center;
+    color: black;
   }
   
   thead{
@@ -64,7 +65,7 @@ input, select{
 }
 select:hover{
     background-color: rgba(245, 245, 245, 0.7);
-    color: antiquewhite;
+   
 }
 input:hover{
     background-color: rgba(245, 245, 245, 0.7);
